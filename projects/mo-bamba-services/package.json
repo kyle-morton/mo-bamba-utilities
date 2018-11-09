@@ -1,7 +1,7 @@
 {
   "name": "mo-bamba-services",
   "author": "Kyle Morton",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository" : "https://github.com/kylemorton5770/mo-bamba-utilities",
   "peerDependencies": {
     "@angular/common": "^7.0.0",
