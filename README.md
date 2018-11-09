@@ -12,4 +12,4 @@ ng run awesome:build
 # Install it in your app
 npm install dist/awesome
 
-//if service needs, module include a module w/ that imported and inject into your client module
+//if service needs external modules like HttpClient, create a module w/ that imported and inject into your client module that using the library
