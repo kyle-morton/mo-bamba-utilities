@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TestComponent } from './components/test/test.component';
 
-import { ServicesModule } from 'dist/services';
+import { MoBambaServicesModule } from 'dist/mo-bamba-services';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { ServicesModule } from 'dist/services';
   ],
   imports: [
     BrowserModule,
-    ServicesModule
+    MoBambaServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

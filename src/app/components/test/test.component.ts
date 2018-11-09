@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from 'services';
+import { ApiService } from 'mo-bamba-services';
 
 @Component({
   selector: 'app-test',

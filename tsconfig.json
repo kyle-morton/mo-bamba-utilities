@@ -23,6 +23,12 @@
       ],
       "services/*": [
         "dist/services/*"
+      ],
+      "mo-bamba-services": [
+        "dist/mo-bamba-services"
+      ],
+      "mo-bamba-services/*": [
+        "dist/mo-bamba-services/*"
       ]
     }
   }

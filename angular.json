@@ -134,33 +134,33 @@
         }
       }
     },
-    "services": {
-      "root": "projects/services",
-      "sourceRoot": "projects/services/src",
+    "mo-bamba-services": {
+      "root": "projects/mo-bamba-services",
+      "sourceRoot": "projects/mo-bamba-services/src",
       "projectType": "library",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/services/tsconfig.lib.json",
-            "project": "projects/services/ng-package.json"
+            "tsConfig": "projects/mo-bamba-services/tsconfig.lib.json",
+            "project": "projects/mo-bamba-services/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/services/src/test.ts",
-            "tsConfig": "projects/services/tsconfig.spec.json",
-            "karmaConfig": "projects/services/karma.conf.js"
+            "main": "projects/mo-bamba-services/src/test.ts",
+            "tsConfig": "projects/mo-bamba-services/tsconfig.spec.json",
+            "karmaConfig": "projects/mo-bamba-services/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/services/tsconfig.lib.json",
-              "projects/services/tsconfig.spec.json"
+              "projects/mo-bamba-services/tsconfig.lib.json",
+              "projects/mo-bamba-services/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
